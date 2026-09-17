@@ -1,0 +1,180 @@
+{
+  "food": [
+    {
+      "id": "R001",
+      "field": "product_name",
+      "label": "Product Name",
+      "required": true
+    },
+    {
+      "id": "R002",
+      "field": "manufacturer",
+      "label": "Manufacturer / Packer",
+      "required": true
+    },
+    {
+      "id": "R003",
+      "field": "net_quantity",
+      "label": "Net Quantity",
+      "required": true
+    },
+    {
+      "id": "R004",
+      "field": "mrp",
+      "label": "MRP",
+      "required": true
+    },
+    {
+      "id": "R005",
+      "field": "batch",
+      "label": "Batch / Lot",
+      "required": true
+    },
+    {
+      "id": "R006",
+      "field": "date",
+      "label": "Date / Best Before / Use By",
+      "required": true
+    },
+    {
+      "id": "R007",
+      "field": "origin",
+      "label": "Country of Origin",
+      "required": false
+    },
+    {
+      "id": "R008",
+      "field": "consumer_care",
+      "label": "Consumer Care",
+      "required": true
+    }
+  ],
+  "cosmetic": [
+    {
+      "id": "R101",
+      "field": "product_name",
+      "label": "Product Name",
+      "required": true
+    },
+    {
+      "id": "R102",
+      "field": "manufacturer",
+      "label": "Manufacturer",
+      "required": true
+    },
+    {
+      "id": "R103",
+      "field": "net_quantity",
+      "label": "Net Quantity",
+      "required": true
+    },
+    {
+      "id": "R104",
+      "field": "mrp",
+      "label": "MRP",
+      "required": true
+    },
+    {
+      "id": "R105",
+      "field": "batch",
+      "label": "Batch / Lot",
+      "required": true
+    },
+    {
+      "id": "R106",
+      "field": "date",
+      "label": "Date / Use By",
+      "required": true
+    },
+    {
+      "id": "R107",
+      "field": "consumer_care",
+      "label": "Consumer Care",
+      "required": false
+    }
+  ],
+  "textile": [
+    {
+      "id": "R201",
+      "field": "product_name",
+      "label": "Product / Article Name",
+      "required": true
+    },
+    {
+      "id": "R202",
+      "field": "manufacturer",
+      "label": "Manufacturer / Importer",
+      "required": true
+    },
+    {
+      "id": "R203",
+      "field": "mrp",
+      "label": "MRP",
+      "required": true
+    },
+    {
+      "id": "R204",
+      "field": "origin",
+      "label": "Country of Origin",
+      "required": false
+    }
+  ],
+  "household": [
+    {
+      "id": "R301",
+      "field": "product_name",
+      "label": "Product Name",
+      "required": true
+    },
+    {
+      "id": "R302",
+      "field": "manufacturer",
+      "label": "Manufacturer",
+      "required": true
+    },
+    {
+      "id": "R303",
+      "field": "net_quantity",
+      "label": "Net Quantity",
+      "required": true
+    },
+    {
+      "id": "R304",
+      "field": "mrp",
+      "label": "MRP",
+      "required": true
+    },
+    {
+      "id": "R305",
+      "field": "batch",
+      "label": "Batch / Lot",
+      "required": false
+    },
+    {
+      "id": "R306",
+      "field": "consumer_care",
+      "label": "Consumer Care",
+      "required": false
+    }
+  ],
+  "other": [
+    {
+      "id": "R901",
+      "field": "product_name",
+      "label": "Product Name",
+      "required": true
+    },
+    {
+      "id": "R902",
+      "field": "manufacturer",
+      "label": "Manufacturer / Importer",
+      "required": true
+    },
+    {
+      "id": "R903",
+      "field": "mrp",
+      "label": "MRP",
+      "required": true
+    }
+  ]
+}

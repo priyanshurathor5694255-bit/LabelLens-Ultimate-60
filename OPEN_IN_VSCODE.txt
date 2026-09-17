@@ -1,0 +1,10 @@
+MAC QUICK START
+1. Extract this ZIP first. Do not open the ZIP itself as a VS Code workspace.
+2. In Finder, open the extracted folder LabelLens_Ultimate_60_Premium.
+3. Right-click the folder -> Open With -> Visual Studio Code.
+4. In VS Code Terminal run: python3 -m venv .venv
+5. Run: source .venv/bin/activate
+6. Run: python -m pip install -r requirements.txt
+7. Run: python -m streamlit run app.py
+
+If macOS asks for permission for START_MAC.command, use the terminal commands above instead.

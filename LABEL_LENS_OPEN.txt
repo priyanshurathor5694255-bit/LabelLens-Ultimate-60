@@ -1,0 +1,13 @@
+LABEL LENS — VS CODE READY
+
+1. Extract this ZIP in Finder (double-click it).
+2. Open the extracted folder in VS Code.
+3. Make sure app.py is visible directly inside this folder.
+4. VS Code: Terminal > New Terminal.
+5. Run:
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python -m pip install -r requirements.txt
+   python -m streamlit run app.py
+
+Do NOT open the ZIP itself as the project. Open the extracted folder.

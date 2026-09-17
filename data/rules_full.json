@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "name": "LabelLens prototype rule pack",
+    "version": "0.1-demo",
+    "note": "Replace/validate rules against the currently applicable official regulations before enforcement use."
+  },
+  "rules": [
+    {
+      "id": "LM-001",
+      "field": "product_name",
+      "label": "Product identity/name",
+      "required": true,
+      "source": "Applicable packaged-commodity requirement"
+    },
+    {
+      "id": "LM-002",
+      "field": "manufacturer",
+      "label": "Manufacturer / packer / importer details",
+      "required": true,
+      "source": "Applicable packaged-commodity requirement"
+    },
+    {
+      "id": "LM-003",
+      "field": "net_quantity",
+      "label": "Net quantity",
+      "required": true,
+      "source": "Applicable packaged-commodity requirement"
+    },
+    {
+      "id": "LM-004",
+      "field": "mrp",
+      "label": "Maximum Retail Price / MRP",
+      "required": true,
+      "source": "Applicable packaged-commodity requirement"
+    },
+    {
+      "id": "LM-005",
+      "field": "batch",
+      "label": "Batch / Lot identification",
+      "required": false,
+      "source": "Applicability-dependent"
+    },
+    {
+      "id": "LM-006",
+      "field": "date",
+      "label": "Date / Best Before / Use By / applicable date declaration",
+      "required": false,
+      "source": "Applicability-dependent"
+    },
+    {
+      "id": "LM-007",
+      "field": "consumer_care",
+      "label": "Consumer care contact",
+      "required": false,
+      "source": "Applicability-dependent"
+    },
+    {
+      "id": "LM-008",
+      "field": "origin",
+      "label": "Country of origin",
+      "required": false,
+      "source": "Applicability-dependent"
+    }
+  ]
+}

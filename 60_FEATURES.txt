@@ -1,0 +1,21 @@
+LABEL LENS ULTIMATE — 60 FEATURE BUILD
+======================================
+
+This package contains 60 numbered implemented feature areas.
+See the Features page inside the Streamlit app for the complete inventory.
+
+Reliability goals:
+- Local-first operation
+- Graceful failure for optional/advanced capabilities
+- No fabricated legal measurements
+- INDETERMINATE/REVIEW when evidence is insufficient
+- Persistent local evidence/history
+- Safe report generation
+- Premium Streamlit UI
+
+Run:
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+streamlit run app.py
